@@ -1,0 +1,287 @@
+body {
+  height: 100vh;
+  margin: 0;
+  /* background-color:cornflowerblue; */
+}
+
+header{
+
+  padding-top:0.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 0.3rem;
+  color: black ;
+
+}
+
+.maindiv{
+  height: 100%;
+
+}
+
+
+.appbody {
+  height: 85%;
+  background-color:gainsboro;
+  display: flex;
+  flex: 1 1 auto;
+  /* justify-content: stretch; */
+}
+
+
+.leftcontainer {
+  text-align: left;
+  padding-left: 1.5rem; /* 24px */
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+  /* border-style: solid; */
+  border-width: 2px;
+  width: 50%;
+  align-items: center;
+  
+  
+}
+
+.maintext{
+  text-wrap: wrap;
+  font-size: 3.5rem;
+  padding-top:6.5rem;
+  padding-bottom:1.5rem;
+  font-family:fantasy;
+}
+
+
+.subtext{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-wrap: wrap;
+  padding-right:2.5rem;
+  font-size: medium;
+  font-weight: bold ;
+}
+
+.rightcontainer {
+  align-items: center;
+  text-align:center;
+  padding-right: 1.5rem; /* 24px */
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+  /* border-style: solid; */
+  border-width: 2px;
+  width: 50%;
+}
+
+
+.formdiv{
+ 
+  flex:flex-none;
+  
+}
+
+.userdetails{
+  text-align: left;
+  padding-left: 1.5rem; /* 24px */
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+  border-style: solid;
+  border-width: 2px;
+  height: 30%;
+  align-items: left;
+}
+
+
+input{
+  background-color: white ;
+  color: #000;
+  border-radius: 6px;
+  height: 0.2px;
+  width: 100px;
+  margin-left: 300px ;
+  margin-top: 50px ;
+  padding: 20px;
+  font-size: 2rem;
+  display: block;
+
+
+}
+
+.formdiv button{
+  background-color: white;
+  border-radius: 0.5rem;
+  border-color:blanchedalmond;
+  margin-left:  100px ;
+  margin-top: 30px;
+  margin-bottom: 0px ;
+}
+
+
+.text{
+   color: black;
+   font-size: medium;
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 15px ;
+   margin-left: 20px ;
+   text-align: center;
+   margin-right: 100px;
+}
+
+.help{
+  margin-top: 100px ;
+  margin-bottom: 100px ;
+  margin-left: 200px ;
+}
+
+
+.tag-container{
+  text-align: center;
+  font-weight: bold ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+ button {
+  background-color: red ;
+  border-radius: 0.5rem;
+  border-color:black;
+  margin-left:  100px ;
+  margin-top: 100px;
+  margin-bottom: 0px ;
+cursor: pointer;
+
+}
+
+.load{
+  color: red ;
+  font-size: large;
+  font-weight: bold ;
+}
+
+a{
+  color: cornflowerblue;
+  margin-top: 400px ;
+  text-align: center ;
+  font-size: smaller;
+  margin-right: 20px;
+  margin-bottom: 10px ;
+
+}
+
+
+
+.help-container{
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(from color r g b);
+  background-color: white;
+
+}
+
+h2{
+  color: black;
+}
+
+/* h3{
+  color: chocolate;
+} */
+
+p{
+  color: crimson;
+  line-height: 1.6;
+}
+
+.contact-details{
+  margin-top: 20px ;
+}
+
+
+
+
+
+@media screen and (max-width: 1190px) {
+  body {
+    height: 100vh;
+    margin: 0;
+    padding:12px;
+    width: 120vh;
+   
+  }
+
+
+  .header-container p {
+    /* line-height: 1.6 ; */
+    font-size: 20px ;
+    font-weight: bolder ;
+    text-align: center;
+    margin: 20px ;
+    margin-top: 150px ;
+    margin-left: -100px ;
+    margin-right: 200px;
+  }
+
+  .button{
+    font-size: 10px ;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    font-weight: bolder ;
+    cursor: pointer;
+    width: 90px ;
+    height: 30px;
+    border: 1px solid black;
+     margin-left: 80px;      /*620 */
+    margin-top: 10px ;
+    margin-bottom: 5px ;
+  
+    }
+
+    input{
+      margin-left: 100px ;
+    }
+
+    .help{
+      margin-top: 20px ;
+    }
+    
+  }
+
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: 100%;
+    margin: 0;
+    padding:12px;
+
+   
+  }
+
+  .header-container p {
+    /* line-height: 1.6 ; */
+    font-size: 20px ;
+    font-weight: bolder ;
+    text-align: center;
+    margin: 20px ;
+    margin-top: 150px ;
+    margin-left: -100px ;
+    margin-right: 200px;
+  }
+
+  .button{
+    font-size: 10px ;
+    border-radius: 4px;
+   
+    transition-duration: 0.4s;
+    font-weight: bolder ;
+    cursor: pointer;
+    width: 90px ;
+    height: 30px;
+    border: 1px solid black;
+     margin-left: 80px;      /*620 */
+    margin-top: 5px ;
+    margin-bottom: 5px ;
+  
+    }
+
+
+  }
